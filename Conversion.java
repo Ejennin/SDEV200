@@ -13,7 +13,7 @@ public class Conversion {
     public static void main(String[] args) {
         
         System.out.println("Feet       Meters     |     Meters     Feet");
-        System.out.println("___________________________________________________");
+        System.out.println("- - - - - - - - - - - - - - - - - - - - - - - -");
         for (double feet = 1; feet <= 10; feet++) {
             double meters = footToMeter(feet);
             double convertedFeet = meterToFoot(meters);
